@@ -10,6 +10,9 @@ app.include_router(order_router)
 
 # para rodar o nosso código, executar no terminal: uvicorn main:app --reload
 
+#para fazer migraçao do banco de dados: alembic revision --autogenerate -m "adiciona campos no usuario"
+#depois : alembic upgrade head
+
 # endpoint:
 # dominio.com/pedidos
 
